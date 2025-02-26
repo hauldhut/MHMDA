@@ -8,3 +8,6 @@
 ## Known phenotype-miRNA associations
 - **Phenotype2miRNAs_HMDD.csv**: Collected from HMDD database
 - **Phenotype2miRNAs_miR2Disease.csv**: Collected from miR2Disease database
+
+## Others
+- **Phenotype2Genes_Full.txt**: Disease-related information
