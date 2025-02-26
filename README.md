@@ -7,12 +7,12 @@ MHMDA: Integration of multiple microRNA similarity networks and a disease simila
 - **Data**: Contains all data 
 - **Code**: Contains all source code to reproduce all the results
 - **Results**: To store simulation results
-  - **Evidence**: To store collected evidence
+  - **Prediction**: To store collected evidence
 - **Figures**: To store generated figures from the simulation results
 
 ## How to run
 - Install R packages
-  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, ggplot2, Metrics, hash*
+  - *RandomWalkRestartMH, multiMiR, easyPubMed, igraph, foreach, doParallel, ROCR, ggplot2, Metrics, hash*
 - Download the repo
 - Follow instructions in the folder **Code** to run
   
