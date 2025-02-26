@@ -16,4 +16,4 @@ MHMDA: Integration of multiple microRNA similarity networks and a disease simila
 - Download the repo
 - Follow instructions in the folder **Code** to run
   
-- *Note*: For large and complex networks (i.e., multiplex disease networks, and multiplex-hetergeneous networks of drugs and diseases), it is recommended to run on a multi-core and at least 16 GB RAM computer
+- *Note*: For large and complex networks (i.e., multiplex miRNA networks, and multiplex-hetergeneous networks of diseases and miRNAs), it is recommended to run on a multi-core and at least 16 GB RAM computer
