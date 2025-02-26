@@ -1,7 +1,7 @@
 # MHMDA
 MHMDA: Integration of multiple microRNA similarity networks and a disease similarity network improves the prediction of disease-associated microRNAs
 
-![Network construction](https://github.com/hauldhut/MHDR/blob/main/Figure1.png)
+![Network construction](https://github.com/hauldhut/MHMDA/blob/main/Figure1.png)
 
 ## Repo structure
 - **Data**: Contains all data 
