@@ -9,10 +9,10 @@ library(doParallel)
 
 setwd("~/Manuscripts/100MHMDA/Code")
 
-#HomomiRWalkNet.txt
-#HomoTargetScanNet.txt
+#Mono_miRWalk.txt
+#Mono_TargetScanNet.txt
 
-miRNA1 <- read.delim("../Data/Mono_miRWalkNet.txt",header = FALSE)
+miRNA1 <- read.delim("../Data/Mono_miRWalk.txt",header = FALSE)
 miRNA1.frame <- data.frame(miRNA1[[1]], miRNA1[[3]])
 miRNA1.g <- graph.data.frame(d = miRNA1.frame, directed = FALSE)
 miRNA1.weight = miRNA1[[2]]
