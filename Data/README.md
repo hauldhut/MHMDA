@@ -1,7 +1,7 @@
 # This folder contains all data used in the manuscript
 ## miRNA monoplex networks
-- **MonoNet_miRWalkNet.txt** (i.e., MomoNet_miRWalkNet): Constructed from miRWalk database
-- **MonoNet_TargetScan.txt** (i.e., MonoNet_TargetScan): Constructed from TargetScan database
+- **MonoNet_miRWalk.txt**: Constructed from miRWalk database
+- **MonoNet_TargetScan.txt**: Constructed from TargetScan database
 ## Disease similarity networks
 - **DiseaseSimNet_OMIM.txt** (i.e., DiSimNet): Collected and constructed from MimMiner
 
