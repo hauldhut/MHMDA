@@ -73,7 +73,7 @@ for(BipartiteNet in BipartiteNets){
     if(Method=="MH"){
       Network = rep(paste0("DiSimNet-MultiNet_miRNA (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else if(Method=="H1"){
-      Network = rep(paste0("DiSimNet-MonoNet_miRWalkNet (AUC = ",aucavgbyAll,")"),length(FPR))  
+      Network = rep(paste0("DiSimNet-MonoNet_miRWalk (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else if(Method=="H2"){
       Network = rep(paste0("DiSimNet-MonoNet_TargetScan (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else if(Method=="H3"){
@@ -81,7 +81,7 @@ for(BipartiteNet in BipartiteNets){
     }else if(Method=="M12"){
       Network = rep(paste0("MultiNet_miRNA (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else if(Method=="M1"){
-      Network = rep(paste0("MonoNet_miRWalkNet (AUC = ",aucavgbyAll,")"),length(FPR))  
+      Network = rep(paste0("MonoNet_miRWalk (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else if(Method=="M2"){
       Network = rep(paste0("MonoNet_TargetScan (AUC = ",aucavgbyAll,")"),length(FPR))  
     }else{
