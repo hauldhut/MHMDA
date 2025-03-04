@@ -8,16 +8,16 @@ library(ROCR)
 
 setwd("~/Manuscripts/100MHMDA/Code")
 
-#HomomiRWalkNet.txt
-#HomoTargetScanNet.txt
+#MonoNet_miRWalk.txt
+#MonoNet_TargetScan.txt
 
-miRNA1 <- read.delim("../Data/Mono_miRWalkNet.txt",header = FALSE)
+miRNA1 <- read.delim("../Data/MonoNet_miRWalk.txt",header = FALSE)
 miRNA1.frame <- data.frame(miRNA1[[1]], miRNA1[[3]])
 miRNA1.g <- graph.data.frame(d = miRNA1.frame, directed = FALSE)
 miRNA1.weight = miRNA1[[2]]
 E(miRNA1.g)$weight <- miRNA1.weight
 
-miRNA2 <- read.delim("../Data/Mono_TargetScan.txt",header = FALSE)
+miRNA2 <- read.delim("../Data/MonoNet_TargetScan.txt",header = FALSE)
 miRNA2.frame <- data.frame(miRNA2[[1]], miRNA2[[3]])
 miRNA2.g <- graph.data.frame(d = miRNA2.frame, directed = FALSE)
 miRNA2.weight = miRNA2[[2]]
