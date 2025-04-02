@@ -1,7 +1,7 @@
 # This folder contains all source code used in the manuscript
 
 - **miRNA_M_LOOCV_Params.R**: Run Leave-One-Out cross-validation for miRNA Monoplex/Multiplex Networks
-  - *M1, M2, M3*: For miRNA Monoplex Networks, i.e., Mono_miRWalk, Mono_TargetScan and MonoNet_Integrated, respectively
+  - *M1, M2, M3*: For miRNA Monoplex Networks, i.e., MonoNet_miRWalk, MonoNet_TargetScan and MonoNet_Integrated, respectively
   - *M12*: For miRNA Multiplex Network, i.e., MultiNet_miRNA
  
 - **miRNA_MH_LOOCV_ROC_Params.R**: Run Leave-One-Out cross-validation for Heterogeneous/Multiplex-Heterogeneous Networks of Diseases and miRNAs
