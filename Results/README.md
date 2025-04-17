@@ -1,1 +1,1 @@
-To store simulation results
+To store performance evaluation results
