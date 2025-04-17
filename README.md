@@ -6,7 +6,7 @@ MHMDA: Integration of multiple microRNA similarity networks and a disease simila
 ## Repo structure
 - **Data**: Contains all data 
 - **Code**: Contains all source code to reproduce all the results
-- **Results**: To store simulation results
+- **Results**: To store performance evaluation results
   - **Prediction**: To store collected evidence
 - **Figures**: To store generated figures from the simulation results
 
