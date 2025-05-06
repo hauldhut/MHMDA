@@ -15,3 +15,5 @@
 
 - **miRNA_MH_Predict_Evidence.R**: To predict and select top 20 highly ranked miRNAs for each disease, then find evidence supporting the promissing disease-miRNA associations from existing databases and literature
 
+- MAMFGAT_Comparison: For the comparison with MAMFGAT
+
